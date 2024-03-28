@@ -87,7 +87,7 @@ Detailed usage examples can be found in the official documentation_.
 Binary sequences (1D)
 ---------------------
 
-.. code-block:: python
+.. code-block::
 
     import numpy as np
     from pybdm import BDM
@@ -109,7 +109,7 @@ Binary sequences (1D)
 Binary matrices (2D)
 --------------------
 
-.. code-block:: python
+.. code-block::
 
     import numpy as np
     from pybdm import BDM
@@ -129,7 +129,7 @@ Binary matrices (2D)
 Non-binary sequences (1D)
 -------------------------
 
-.. code-block:: python
+.. code-block::
 
     import numpy as np
     from pybdm import BDM
@@ -166,7 +166,7 @@ into a single BDM approximation of the algorithmic complexity of the dataset.
     except lower and right boundaries have to be decomposable without
     any boundary leftovers by the selected decomposition algorithm.
 
-.. code-block:: python
+.. code-block::
 
     import numpy as np
     from joblib import Parallel, delayed
@@ -205,7 +205,7 @@ since their removal make it more noisy. On the other hand parts that yield
 positive contribution to the overall complexity after change are likely
 to be noise since they extend the system's description length.
 
-.. code-block:: python
+.. code-block::
 
     import numpy as np
     from pybdm import BDM
